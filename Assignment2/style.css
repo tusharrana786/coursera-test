@@ -1,0 +1,115 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: green;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+ @media(min-width: 576px)
+    {
+        .nav-link span{
+          visibility: hidden;
+         }
+        .navbar-toggler {
+          visibility: hidden;
+        }
+    }
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+h2 {
+	font-family: cursive;
+	font-size: 175;
+	margin-bottom: 45px;
+	margin-top: 35px;
+}
+
+p{  
+      margin: 0px 10px 10px 10px;
+       clear: right;
+       padding: 1px;
+   }
+    .box {
+
+        width: 100%;
+        height: 100%;
+       border: 2px solid black;
+       background-color:cornsilk;
+       box-sizing: border-box;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       color:black;
+       font-size: 17px;
+       margin-bottom: 20px;
+
+
+     }
+     .container{
+        width: 100%;
+        height: 100%;
+      background-color: white;
+      padding-top: 30px;
+
+    }
+
+    .chicken {
+		text-align: center;
+		font-size: 27px;
+		font-family: cursive;
+		color: #61122f
+
+    }
+
+    .beef {
+		text-align: center;
+		font-size: 27px;
+		font-family: cursive;
+		color: #61122f
+
+    }
+
+    .sushi {
+		text-align: center;
+		font-size: 27px;
+		font-family: cursive;
+		color: #61122f
+
+    } 
